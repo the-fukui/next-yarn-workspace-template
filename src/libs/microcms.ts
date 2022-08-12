@@ -85,3 +85,9 @@ export const getAllBlogList = client
       postType: 'normal' as const,
     }))
   })
+
+export const getPortfolio = (ID: string) =>
+  client.getListDetail<MicroCMSContent.Portfolio>({
+    endpoint: 'portfolio',
+    contentId: ID,
+  })
