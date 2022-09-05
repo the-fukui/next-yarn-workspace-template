@@ -426,6 +426,15 @@
     "@scaffdog/types" "2.0.3"
     zod "^3.11.6"
 
+"@scaffdog/config@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaffdog/config/-/config-2.2.0.tgz#6d2ed962a7829688989ae89f34f408ad481b2226"
+  integrity sha512-tvkZvu0Z/52x6RGKgj4DKVIQNxbIDQx2uaWOU2SSoAyTwBjJKgexzBVh/ELpuGHs2T9mUuhKE+j2PHK/lDhKbg==
+  dependencies:
+    "@scaffdog/types" "2.2.0"
+    jiti "^1.14.0"
+    zod "^3.11.6"
+
 "@scaffdog/core@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@scaffdog/core/-/core-2.0.3.tgz#9781c13ca1d7da36c03902d2ec3efa79425ce2eb"
@@ -450,6 +459,18 @@
     is-plain-object "^5.0.0"
     safe-eval "^0.4.1"
 
+"@scaffdog/engine@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaffdog/engine/-/engine-2.2.0.tgz#da846226097cd8bb02a7187198bc2676c48d8c1e"
+  integrity sha512-FmLBYb4vv9uS65PRGVcEgrIAO3Ce07mDjUYN2Fg96UMExKVHaCGg1Q48F0v79AWBFtOl76FSWEvkdeGMZppmyw==
+  dependencies:
+    "@scaffdog/error" "2.2.0"
+    "@scaffdog/types" "2.2.0"
+    change-case "^4.1.2"
+    dayjs "^1.10.4"
+    is-plain-object "^5.0.0"
+    safe-eval "^0.4.1"
+
 "@scaffdog/error@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@scaffdog/error/-/error-2.0.3.tgz#15e8226971e6106f25a97ec4003f09b2e289eedd"
@@ -459,10 +480,24 @@
     chalk "^4.1.0"
     string-length "4.0.2"
 
+"@scaffdog/error@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaffdog/error/-/error-2.2.0.tgz#cc08b2a30e81917f86f7b32cca1c564fa42824c6"
+  integrity sha512-Qjx9/qZzE+ir5m4RoBL11XgPrV0jfb1jthMZdWbRDj26Wc+pxsid/zAWV8MjM9dI/8PG9IwOm9bBF9T6CBp7aQ==
+  dependencies:
+    "@scaffdog/types" "2.2.0"
+    chalk "^4.1.0"
+    string-length "4.0.2"
+
 "@scaffdog/types@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@scaffdog/types/-/types-2.0.3.tgz#0d6fe764f3da0f9afca4b65263beb13287105e53"
   integrity sha512-/xF8H6DpOUuzdt1ls7j55vv4q+E8vTQ373OilFq4GrgV6dyEZyFtBXabJTitauUWl2Jvn308rWhDbCTRCBMExA==
+
+"@scaffdog/types@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@scaffdog/types/-/types-2.2.0.tgz#47beef3b8ca657b4d5ac6bd17ce53d7f2918350d"
+  integrity sha512-zIAbSE/RpYM763Z9otpOCn9zLOz93/QobmjnYnwL5Lhe5SkfhIC3D4o680NZkZl/UXEb0q01mExx8/4MV57QYw==
 
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
@@ -2521,6 +2556,11 @@ javascript-natural-sort@0.7.1:
   resolved "https://registry.yarnpkg.com/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz#f9e2303d4507f6d74355a73664d1440fb5a0ef59"
   integrity sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw==
 
+jiti@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.14.0.tgz#5350fff532a4d891ca4bcd700c47c1f40e6ee326"
+  integrity sha512-4IwstlaKQc9vCTC+qUXLM1hajy2ImiL9KnLvVYiaHOtS/v3wRjhLlGl121AmgDgx/O43uKmxownJghS5XMya2A==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -3361,14 +3401,14 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier-plugin-scaffdog@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-scaffdog/-/prettier-plugin-scaffdog-2.0.3.tgz#89d71822507a3410f0a78c226a5929c09ce46317"
-  integrity sha512-6OUsUElArcX+IyuPnlUUk2EvFXzt1R3zAd3Ng/W7x6vy7kSva1Emy41QolaQllnjqFRTJ5rOHqM35peAFErKLA==
+prettier-plugin-scaffdog@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-scaffdog/-/prettier-plugin-scaffdog-2.2.0.tgz#57b11d6fd7a585e977e9009cc71a42b474e91069"
+  integrity sha512-wHWd5FnnHFScAUPrSDpCYsJoPWxoJDTqTHF0HK/KvyH0YA5ajkMESRi3hIEibb2qwhePx3dVeczH6AYSPa9Bng==
   dependencies:
-    "@scaffdog/config" "2.0.3"
-    "@scaffdog/engine" "2.0.3"
-    "@scaffdog/types" "2.0.3"
+    "@scaffdog/config" "2.2.0"
+    "@scaffdog/engine" "2.2.0"
+    "@scaffdog/types" "2.2.0"
     minimatch "^5.0.0"
     prettier "2.7.1"
 
